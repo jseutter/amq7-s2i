@@ -213,9 +213,9 @@ under the License.
                <queue name="ExpiryQueue" />
             </anycast>
          </address>
-         <address name="demoQueue">
+         <address name="ibm">
             <anycast>
-               <queue name="demoQueue" />
+               <queue name="queue1" />
             </anycast>
          </address>
          <address name="s2iQueue">
