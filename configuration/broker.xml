@@ -215,7 +215,7 @@ under the License.
          </address>
          <address name="ibm">
             <anycast>
-               <queue name="queue1" />
+               <queue name="queue2" />
             </anycast>
          </address>
          <address name="s2iQueue">
