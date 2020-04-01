@@ -25,7 +25,7 @@
    <server configuration="file:/home/jboss/broker/etc//broker.xml"/>
 
    <!-- The web server is only bound to localhost by default -->
-   <web bind="http://amq7-s2i5-1-5679p:8161" path="web">
+   <web bind="http://${BROKER_IP}:8161" path="web">
        <app url="redhat-branding" war="redhat-branding.war"/>
        <app url="artemis-plugin" war="artemis-plugin.war"/>
        <app url="console" war="console.war"/>
